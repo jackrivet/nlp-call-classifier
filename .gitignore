@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+saved_pretrained_model-1/
+saved_pretrained_tokenizer-1/
+*.csv
