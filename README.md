@@ -5,7 +5,7 @@ An end-to-end NLP classification pipeline built on AWS to analyze call transcrip
 - [Overview](#pipeline-overview)
 - [Model](#model)
 - [Training](#training)
-- [Inference](#inference)
+- [Batch Prediction Process](#batch-prediction-process)
 - [Tech Stack](#tech-stack)
 - [Deployment](#deployment)
 - [Author](#author)
@@ -45,7 +45,7 @@ Training parameters include:
   
 After training, the model is saved and reused during batch inference to classify future call transcripts uploaded to S3.
 
-## Inference
+## Batch Prediction Process
 
 Once trained, the model is deployed in a serverless batch prediction workflow. The batch prediction script:
 - Loads the most recent CSV of parsed transcripts from an S3 bucket.
