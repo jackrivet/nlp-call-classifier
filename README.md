@@ -67,7 +67,7 @@ The script is designed to be invoked via AWS Lambda or scheduled jobs, making it
 
 ## Deployment
 - Configure Amazon Connect Contact Lens to store call transcripts as JSON files in an S3 Bucket.
-- Deploy `convert-jsons-to-csv-for-sagemaker.py` in Lambda.
+- Deploy `convert-jsons-to-csv.py` in Lambda.
 - Compile appropriate volume of training data by manually labeling transcripts with desired categories.
 - Train model with `model_training.py` and save locally in SageMaker.
 - Use `batch_predict.py` to apply labels to new transcripts and store back in S3.
