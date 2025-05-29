@@ -77,4 +77,4 @@ The script is designed to be invoked via AWS Lambda or scheduled jobs, making it
 ## Author
 For questions or collaboration opportunities, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/jackrivet/).
 
-Notes: Amount of training data required to achieve accurate results scales with the desired number of categories.
+Note: Amount of training data required to achieve accurate results scales with the desired number of categories.
