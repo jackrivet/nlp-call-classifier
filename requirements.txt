@@ -1,0 +1,9 @@
+transformers
+torch
+boto3
+pandas
+scikit-learn
+import os
+datetime
+botocore
+urllib.parse
